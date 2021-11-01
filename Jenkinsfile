@@ -11,6 +11,7 @@ pipeline {
                     echo "PATH = ${PATH}"
                     echo "M2_HOME = ${M2_HOME}"
 		    echo "Teste: Initialize OK"
+		    sleep 5
 
                 '''
             }
